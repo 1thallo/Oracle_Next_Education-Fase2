@@ -20,13 +20,29 @@ Para desenvolver um sistema eficiente de gerenciamento de conferências científ
 
 ---
 
-### Etapa 1: Identificação das Entidades
+## Etapa 1: Identificação das Entidades
 
-Com base no levantamento de requisitos fornecido, as principais entidades que podemos identificar são:
+Com base no levantamento de requisitos, foi possível identificar as entidades essenciais que compõem o sistema de gerenciamento de conferências científicas. Essas entidades representam os elementos centrais envolvidos na organização e no funcionamento do evento.
 
-- **Conferência**
-- **Participante**
-- **Sessão**
-- **Apresentação**
-- **Submissão**
-- **Revisor**
+> As principais entidades identificadas são:
+>
+> - **Conferência**  
+>
+>
+> - **Participante**  
+>
+>
+> - **Sessão**  
+>
+>
+> - **Apresentação**  
+>
+>
+> - **Submissão**  
+>
+>
+> - **Revisor**  
+> 
+
+Essa identificação serve como base para a modelagem conceitual das informações do sistema.
+
