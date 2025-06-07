@@ -42,7 +42,6 @@ Com base no levantamento de requisitos, foi possível identificar as entidades e
 >
 >
 > - **Revisor**  
-> 
+>  
 
 Essa identificação serve como base para a modelagem conceitual das informações do sistema.
-
