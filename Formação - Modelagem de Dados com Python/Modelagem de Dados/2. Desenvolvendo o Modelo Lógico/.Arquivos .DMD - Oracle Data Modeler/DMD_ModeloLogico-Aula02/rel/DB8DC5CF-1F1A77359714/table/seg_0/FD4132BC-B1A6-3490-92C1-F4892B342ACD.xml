@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD4132BC-B1A6-3490-92C1-F4892B342ACD" name="ONETB005_CONTA">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:05:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Armazena dados sobre as contas.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTA" id="EC15AF8D-C0FE-A1E6-2012-BD2E5C554BE7">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:06:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único serial da conta.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<defaultValue>SQ01_ONETB005.nextval</defaultValue>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ01_ONETB005</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="NR_CONTA" id="55677664-DCA1-067D-EB1D-D1E6542CCD9B">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:06:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número da conta.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IC_TIPO_CONTA" id="E1F61022-99ED-2255-5185-4932011F8A72">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:06:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador do tipo de conta:
+CC - Conta Corrente
+CP - Conta Poupança]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_SALDO" id="44B12299-4A08-45B8-2F6D-0CD054F12F0D">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:06:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do saldo da conta.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ABERTURA" id="56F8B900-52C0-D155-7FF9-887E66229DDC">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:06:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de abertura da conta.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BB7D77A-E37C-AAD6-84A6-6B27FABEDEA4" name="PK_ONETB005">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:06:26 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC15AF8D-C0FE-A1E6-2012-BD2E5C554BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

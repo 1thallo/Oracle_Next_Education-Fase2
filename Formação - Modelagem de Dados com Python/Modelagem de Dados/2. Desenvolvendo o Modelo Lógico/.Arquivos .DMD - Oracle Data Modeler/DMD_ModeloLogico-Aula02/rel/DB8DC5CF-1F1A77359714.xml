@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ONE_ModelagemDados" id="DB8DC5CF-154D-EDC3-917B-1F1A77359714" mainViewID="027E39CC-4403-2184-87FE-6C35972F4BB5">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:07 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+</relationalModel>

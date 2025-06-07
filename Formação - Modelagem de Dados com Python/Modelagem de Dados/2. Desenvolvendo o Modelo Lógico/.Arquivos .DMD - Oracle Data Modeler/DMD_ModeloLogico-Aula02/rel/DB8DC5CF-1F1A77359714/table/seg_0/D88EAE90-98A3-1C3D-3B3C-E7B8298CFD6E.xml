@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D88EAE90-98A3-1C3D-3B3C-E7B8298CFD6E" name="ONETB003_DEPARTAMENTO">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:48:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Armazena dados sobre os departamentos.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPARTAMENTO" id="EB3FEFAD-CCBF-83CE-06A7-0A05B00B8572">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:54:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único serial do departamento.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<defaultValue>SQ01_ONETB003.nextval</defaultValue>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ01_ONETB003</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_GERENTE" id="BDF38B28-D01A-6A53-25BF-258F0C5D139F">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:55:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do colaborador que é gerente do departamento.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_DEPARTAMENTO" id="70CEBA4E-E9C1-1E46-CB96-3E51655A711D">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:54:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do departamento.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DEPARTAMENTO" id="52299E6E-9D80-0A2A-60AE-E9281D5946D1">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:54:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do departamento.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E706CAC-7324-3989-01B0-6BE48A501F7B" name="PK_ONETB003">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:54:37 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB3FEFAD-CCBF-83CE-06A7-0A05B00B8572"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

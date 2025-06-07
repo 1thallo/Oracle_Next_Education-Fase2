@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D56E7C8-0065-70E1-E157-D4B9F278C642" name="ONETB006_EMPRESTIMO">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:10:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Armazena dados sobre os empréstimos feitos.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPRESTIMO" id="07B75AC4-EAA1-CB76-5BFE-D1CCDEB437EF">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:10:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único serial do empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="3597B807-9AF6-EDC5-73E4-228EC32B0132">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do cliente que fez o empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_EMPRESTIMO" id="9B00533D-0387-FF97-8EDA-E1E0BF901178">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PRAZO" id="BC883C8C-33F6-4AED-19FD-83A381CE9955">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data do prazo limte do Empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="804000BE-D528-2815-20F2-AE5869ADD313">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de início do empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IC_TIPO_EMPRESTIMO" id="2CDC8FCE-6AD1-3BAF-0094-2EC1D14DD7A4">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador do tipo do Empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IC_STATUS" id="4B38A5AD-2682-ABFF-5028-4AB8D87F2875">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicador do status do Empréstimo.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E200E49D-F13A-049F-32C0-C05872062EE5" name="PK_ONETB006">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:11:21 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07B75AC4-EAA1-CB76-5BFE-D1CCDEB437EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

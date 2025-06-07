@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="706F1044-945F-C309-1EAD-F627F162C7DF" name="ONETB002_CLIENTE">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:00:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Armazena dados sobre os clientes.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="EFAC131E-B1EF-09C2-BD62-00BCC4090C96">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:04:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único serial do Cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<defaultValue>SQ01_ONETB002.nextval</defaultValue>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ01_ONETB002</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="NR_CPF_CLIENTE" id="13C25FB2-9758-4DEA-00A2-6AFE4CE9703D">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:04:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CPF do Cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_CLIENTE" id="C8414FB7-7373-4573-0EC7-08EA616C2459">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:04:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do Cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ED_COMPLETO" id="050D113B-9117-B77E-98EB-05799F90461A">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:06:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço completo do Cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="7ABE7375-CC21-809D-CF3A-AB30B25CEC54">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:04:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de Nascimento do Cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE_CLIENTE" id="1FCFB621-3623-A746-A0F9-FDBBD9212A60">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:08:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de telefone do Cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E122A48-93A6-7081-CD6B-D2B1D256EB6B" name="PK_ONETB002">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:04:05 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFAC131E-B1EF-09C2-BD62-00BCC4090C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08405752-464B-C9F1-3730-C51B153FA0D7" name="UK01_ONETB002">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 19:04:05 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13C25FB2-9758-4DEA-00A2-6AFE4CE9703D"/>
+<colUsage columnID="C8414FB7-7373-4573-0EC7-08EA616C2459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

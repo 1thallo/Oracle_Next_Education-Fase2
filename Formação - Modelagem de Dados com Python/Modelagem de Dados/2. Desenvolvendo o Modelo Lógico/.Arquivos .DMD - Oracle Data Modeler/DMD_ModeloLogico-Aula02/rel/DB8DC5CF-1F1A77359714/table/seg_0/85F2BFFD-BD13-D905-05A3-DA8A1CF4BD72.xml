@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85F2BFFD-BD13-D905-05A3-DA8A1CF4BD72" name="ONETB008_CLIENTE_CONTA">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:18:45 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="13D6C9E8-0909-5603-8B5F-BAA7C23B4BCC">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:19:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do cliente.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CONTA" id="C0DB4357-A658-94FD-B01E-9577E3AD4153">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:19:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da conta.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D208190A-1542-5C83-21B6-59330D6215C3" name="PK_ONETB008">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 20:19:55 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D6C9E8-0909-5603-8B5F-BAA7C23B4BCC"/>
+<colUsage columnID="C0DB4357-A658-94FD-B01E-9577E3AD4153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8F4583C-943D-FDCD-D8E7-E208E872B416" name="ONETB001_COLABORADOR">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Armazena dados sobre os colaboradores.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>1A3DCFA7-7BE0-A4AA-6B93-FEDFA8090633</importedID>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLABORADOR" id="9F07449B-C1DB-8FA1-304B-ACE2C46DE5A3">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único serial do Colaborador.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>82ADF087-F427-CA1E-8BF4-EA332D10451F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<defaultValue>SQ01_ONETB001.nextval</defaultValue>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ01_ONETB001</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="NR_CPF_COLABORADOR" id="76AAD613-46E0-4933-3498-93BE5DD8C12B">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do CPF do colaborador.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>57FD6549-C194-9296-1A07-4309EADEFCA2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_COLABORADOR" id="34C3E205-4B6A-0353-EB4F-7F1C36D6021F">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do Colaborador.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>EEB4ED55-0CC9-075E-7B04-F01CD9430112</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_SALARIO" id="85EF4178-5EE8-ABCA-4323-7A41224077D5">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do salário do Colaborador.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>C052381A-2229-96B8-C472-3CB5E6EFC512</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_CARGO" id="6965AC3B-B1B3-3C54-34B4-4C4D943F0E44">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cargo do Colaborador.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>36B3C402-D082-7B5E-9C10-5243D560CFB3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE_COLABORADOR" id="D2354232-0FB3-B39A-3692-D6960AA2F96B">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de telefone do Colaborador]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>19972112-61C6-7142-7417-7F7F2522C7B4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EE_COLABORADOR" id="C250450A-299A-888A-5552-9D4FDD6DD645">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Email eletrônico do Colaborador.]]></commentInRDBMS>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>61D08B3C-AE42-6E7A-CED4-D7CE5103BB14</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="338AE21C-8B8C-1D55-3995-313ADCB0B281" name="PK_ONETB001">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>68E5C4E4-9B25-D694-27BE-70808FA002F8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F07449B-C1DB-8FA1-304B-ACE2C46DE5A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CFE2910-276F-80DC-CA4A-B79A5E106E29" name="UK01_ONETB001">
+<createdBy>ithallo</createdBy>
+<createdTime>2025-06-07 18:57:09 UTC</createdTime>
+<ownerDesignName>DMD_ModeloLogico-Aula02</ownerDesignName>
+<importedID>871012D6-A6CF-F9EC-DC88-7CBF8CC586DC</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76AAD613-46E0-4933-3498-93BE5DD8C12B"/>
+<colUsage columnID="34C3E205-4B6A-0353-EB4F-7F1C36D6021F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
