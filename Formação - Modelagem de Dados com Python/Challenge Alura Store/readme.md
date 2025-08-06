@@ -8,6 +8,14 @@ O objetivo é colocar seu projeto em prática, compartilhando experiências, col
 
 ---
 
+## Certificado de Conclusão
+
+![Certificado](https://github.com/user-attachments/assets/13ed64fe-a4cb-4ca1-87e7-ff92b620fa01)
+
+### Link para credencial
+
+https://cursos.alura.com.br/formalCertificate/2c38378e-9740-4589-8171-5ec8e9dc1b3c
+
 ## Desafio Alura Store
 
 Com este desafio, você colocará em prática conceitos iniciais de análise de dados com Python, utilizando bibliotecas nativas do Python para manipulação/extração de arquivos e para visualização de dados.
