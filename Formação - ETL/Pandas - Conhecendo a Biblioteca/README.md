@@ -2,6 +2,8 @@
 
 ![Certificado](https://github.com/user-attachments/assets/001e43ba-ec27-42f0-b313-b6a76311bc57)
 
+[Link para Credencial](https://cursos.alura.com.br/formalCertificate/b94ae4be-2390-4551-baaa-6e1414d59098)
+
 ## Sobre o Curso
 
 Este curso apresenta os fundamentos da biblioteca **Pandas**, uma das ferramentas mais importantes para análise e manipulação de dados em Python. Durante as aulas, você aprenderá desde a importação de dados até técnicas avançadas de transformação e visualização.
