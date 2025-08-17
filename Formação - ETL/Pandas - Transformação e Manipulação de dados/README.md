@@ -2,6 +2,10 @@
 
 ![Certificado](https://github.com/user-attachments/assets/134d64db-559b-48b6-b6ee-957247d72294)
 
+Link p/ Credencial:
+
+- https://cursos.alura.com.br/formalCertificate/935139eb-be88-474d-8b04-0c823f46c49a
+
 ## 📋 Sobre o Curso
 
 Este curso foca na **transformação e manipulação de dados** usando Pandas, abordando técnicas essenciais para limpeza, conversão e tratamento de diferentes tipos de dados. O objetivo é capacitar o estudante a preparar dados para análise de forma eficiente e profissional.
