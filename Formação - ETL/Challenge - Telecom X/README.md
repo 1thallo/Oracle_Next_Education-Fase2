@@ -1,5 +1,12 @@
 # 📊 Análise de Churn - TelecomX
 
+## Certificado de Conclusão
+
+![Certificado](https://github.com/user-attachments/assets/8cde77f8-7314-4b30-91f4-14bab1e97b13)
+
+Link para a credencial:
+- https://cursos.alura.com.br/formalCertificate/611e507f-7eba-4510-a790-eb8593664f01
+
 ## 🎯 Propósito da Análise
 
 Este projeto tem como objetivo analisar o comportamento de evasão (churn) dos clientes da empresa TelecomX, identificando padrões e fatores que influenciam o cancelamento dos serviços de telecomunicações.
